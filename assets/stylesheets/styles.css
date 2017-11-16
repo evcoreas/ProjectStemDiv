@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
+
+
+.font-headings{
+  font-family: 'Electrolize', sans-serif;
+  color: blue;
+  text-shadow: 2px 2px #FFF;
+  text-align: center;
+}
+
+/*----------------------------Navigation Styles------------------------------*/
+.bg-light {
+    background-color: #4CA156!important;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+/*------------------------------Landing Page Styles--------------------------*/
+
+#landing-header {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding-top: 40vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+	    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+}
+
+#landing-header h1, #landing-header h2 {
+    color: white;
+    font-size: 45px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	         0px 8px 13px rgba(0,0,0,0.1),
+			 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.landingbtn, .landingbtn:hover, landingbtn:visited, landingbtn:active {
+  margin-top: 10px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background:
+		linear-gradient(
+			rgba(17, 89, 28, 0.45),
+			rgba(17, 148, 138, 0.50)
+		);
+}
+
+.heroSlide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*.heroSlide li { */
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  position: absolute;*/
+/*  background-size: cover;*/
+/*  background-repeat: no-repeat;*/
+/*  opacity: 0;*/
+/*  animation: imageAnimation 20s linear infinite;*/
+/*}*/
+
+.heroSlide li:nth-child(1) { 
+    background:
+		linear-gradient(
+			rgba(17, 89, 28, 0.45),
+			rgba(17, 148, 138, 0.50)
+		),
+  url(../images/teamimg1.jpg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  animation: imageAnimation 20s linear infinite;
+		
+}
+.heroSlide li:nth-child(2) {
+    background:
+		linear-gradient(
+			rgba(17, 89, 28, 0.45),
+			rgba(17, 148, 138, 0.50)
+		),
+  url(../images/teamimg2.jpg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  animation-delay: 5s;
+  animation: imageAnimation 20s linear infinite;
+}
+.heroSlide li:nth-child(3) { 
+    background:
+		linear-gradient(
+			rgba(17, 89, 28, 0.45),
+			rgba(17, 148, 138, 0.50)
+		),
+  url(../images/teamimg3.jpg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  animation-delay: 10s;
+  animation: imageAnimation 20s linear infinite;
+}
+
+@keyframes imageAnimation { 
+  0% { 
+    opacity: 0; 
+    animation-timing-function: ease-in;
+  }
+  10% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  20% {
+    opacity: 1
+  }
+  30% {
+    opacity: 1
+  }
+}
+
+/*---------------------Index Styles--------------------------------------*/
+
+.maincontent h1 {
+  padding-bottom: 40px;
+}
+
+
+.WhatCanYouDo, .contentAndTrending {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.WhatCanYouDo i {
+    color: black;
+}
+
+/*---------------------------Content and Trending Styles----------------*/
+
+.maincontent {
+    position: relative;
+}
+
+.contentAndTrending .col {
+    margin: 20px;
+}
+
+
+
+
+
+
+/*-------------------------Meet The Team Styles----------------------------*/
+
+.meetTheTeam h1 {
+  margin-top: 30px;
+}
+.card {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------------Discussions----------------------*/
+.main-box{
+  margin:10px;
+  height:200px;
+  display:flex;
+  justify-content:center;
+}
+
+.photo-box{
+  margin:10px;
+  padding:5px;
+  height:80px;
+  width:90px;
+  border:2px solid #4CA156;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center; 
+  background-color:#FFFFFF;
+}
+
+.photo-box i {
+  color: black;
+  align-items: center; 
+}
+
+.text-box{
+  margin:10px;
+  padding:10px;
+  height:150px;
+  width:800px;
+  background-color:#FFFFFF;
+  border:2px solid #4CA156;
+}
+
+/*------------------------COURSES NEARBY----------------------*/
+.center-div
+{
+   margin: 0 auto;
+   width: 100px; 
+}
+
+.text-center{
+  font-family:'Electrolize', sans-serif;
+
+}
+
+
+/*----------------------------Sign In Form Styles--------------------*/
+
+.form-row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.form-control:focus {
+  border: 3px solid #4CA156;
+  outline: none;
+  box-shadow: none;
+}
+
+.maincontent h1 {
+  margin-top: 30px;
+}
+
+.maincontent h4 {
+  margin-bottom: 30px;
+}
+
+/*--------------------------Footer Styles-------------------------*/
+footer {
+    background-color: #4CA156;
+}
+
+i {
+    color: white;
+    padding: 30px 15px;
+}
+
+
